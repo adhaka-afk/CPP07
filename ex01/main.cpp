@@ -6,22 +6,12 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:37:15 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/03 06:30:34 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/05 03:04:39 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "iter.hpp"
-#include <iostream>
 
-template <typename T> void printIt(T &a)
-{
-	std::cout << a << std::endl;
-}
-
-template <typename T> void addOne(T &a)
-{
-	++a;
-}
 
 int main(void)
 {

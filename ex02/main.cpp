@@ -6,7 +6,7 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:37:23 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/04 04:03:28 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/05 03:53:38 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,9 @@ int main()
 
 		Array<int> array(5);
 		std::cout << "Array size: " << array.size() << std::endl;
+
+		for (unsigned int i = 0; i < array.size(); i++)
+			array.setValue(i, i + 1);
 
 		std::cout << "Array elements: ";
 		for (unsigned int i = 0; i < array.size(); i++)
